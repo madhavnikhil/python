@@ -8,19 +8,20 @@ if __name__ == '__main__':
     my_turtle = turtle.Turtle()
 
     # Make your turtle's shape 'turtle', .shape('turtle')
-
+    my_turtle.shape('turtle')
     # Set your turtle's speed using .speed(2)
-
+    my_turtle.speed(2)
     # Set your turtle's color using .color('green') and .pencolor('blue')
-
+    my_turtle.color('green')
+    my_turtle.pencolor('blue')
     # Move your turtle forward using .forward(100)
     # TEST    Did your turtle move forward?
-
+    my_turtle.forward(100)
     # Move your turtle left or right using .left(90) or .right(90)
-
+    my_turtle.left(90)
     # Now put the forward and left/right code into a for loop to repeat 4 times.
     # TEST    Did your turtle draw a square?
-
+    for i in range(4)
     # Move your turtle to a new place on the screen using .goto(x, y)
     # x=0 and y=0 is the center of the screen
 
