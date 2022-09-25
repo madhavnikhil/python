@@ -21,17 +21,36 @@ if __name__ == '__main__':
     my_turtle.left(90)
     # Now put the forward and left/right code into a for loop to repeat 4 times.
     # TEST    Did your turtle draw a square?
-    for i in range(4)
+    for i in range(4):
+        my_turtle.forward(100)
+        my_turtle.left(90)
+
     # Move your turtle to a new place on the screen using .goto(x, y)
     # x=0 and y=0 is the center of the screen
+    my_turtle.goto(0, 0)
 
     # Have your turtle draw a circle using .circle(radius, steps=30)
     # TEST    Did your turtle draw a circle?
-
+    my_turtle.begin_fill()
+    my_turtle.circle(10, steps=30)
+    my_turtle.end_fill()
     # Add color to your shape by adding .begin_fill() before drawing the circle
     # and .end_fill() below
 
+
+
     # Draw 3 more shapes with different fill colors!
+    my_turtle.begin_fill()
+    my_turtle.circle(5, steps=30)
+    my_turtle.end_fill()
+
+    my_turtle.begin_fill()
+    my_turtle.circle(7, steps=30)
+    my_turtle.end_fill()
+
+    my_turtle.begin_fill()
+    my_turtle.circle(6, steps=30)
+    my_turtle.end_fill()
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
